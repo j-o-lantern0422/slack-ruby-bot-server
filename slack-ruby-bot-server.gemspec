@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rack-cors'
   spec.add_dependency 'rack-rewrite'
   spec.add_dependency 'rack-server-pages'
-  spec.add_dependency 'slack-ruby-client'
+  spec.add_dependency 'slack-ruby-client', git: "https://github.com/j-o-lantern0422/slack-ruby-client", branch: "add-socket-mode"
 end
